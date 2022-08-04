@@ -1,0 +1,188 @@
+/*media queries*/
+@media only screen and (min-width: 768px) {
+    .cta {
+        font-size: 2.5rem;
+        padding: 20px 60px;
+
+    }
+
+    .section-title {
+        font-size: 6rem;
+    }
+
+    #header .nav-bar {
+        justify-content: space-between;
+    }
+
+    #header .nav-list ul {
+        width: 50vw;
+    }
+
+    #header .nav-list ul.active {
+        left: 50vw;
+    }
+
+    /*Hero*/
+    #hero h1 {
+        font-size: 7rem;
+    }
+
+    /*end ofHero*/
+    /*Service section*/
+    #services .service-bottom .service-item {
+        flex-basis: 45%;
+        margin: 1%;
+    }
+
+    /*End of service section*/
+    /*Projects section*/
+    #projects .project-item {
+        flex-direction: row;
+    }
+
+    #projects .project-item:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    #projects .project-item {
+        height: 400px;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #projects .all-projects .project-info {
+        height: 100%;
+    }
+
+    #projects .all-projects .project-image {
+        height: 100%;
+    }
+
+    /*End of project*/
+    /*About section*/
+    #about .about {
+        flex-direction: row;
+    }
+
+    #about .col-left {
+        width: 600px;
+        height: 400px;
+        padding-left: 60px;
+    }
+
+    #about .col-left .about-image::after {
+        left: -35px;
+        top: 30px;
+        height: 98%;
+        width: 98%;
+        border: 10px solid rgb(47, 197, 10);
+    }
+
+    #about .col-right {
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    #about .col-right h1 {
+        text-align: left;
+    }
+
+    /*end ofAbout section*/
+    /*COntact section*/
+    #contact {
+        flex-direction: column;
+        padding: 100px 0;
+        align-items: center;
+        justify-content: center;
+        min-height: 20vh;
+    }
+
+    #contact .contact-details {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 30px;
+    }
+
+    #contact .contact-item {
+        width: 30%;
+        flex-direction: row;
+    }
+
+    #contact .contact-item .icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    #contact .contact-item .icon img {
+        object-fit: contain;
+    }
+
+    #contact .contact-info {
+        width: 100%;
+        text-align: left;
+        padding: 20px;
+    }
+
+    /*End of contact section*/
+}
+
+@media only screen and (min-width: 900px) {
+    .brand {
+        padding-left: 2rem;
+    }
+
+    #header .nav-bar {
+        justify-content: flex-start;
+    }
+
+    #header .nav-list ul {
+        width: 40vw;
+    }
+
+    #header .nav-list ul.active {
+        left: 60vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .brand {
+        padding-left: 4rem;
+    }
+
+    #header .hamburger {
+        display: none;
+    }
+
+    #header .nav-list ul {
+        position: initial;
+        display: block;
+        height: auto;
+        width: fit-content;
+        background-color: transparent;
+        padding-right: 3.5rem;
+    }
+
+    #header .nav-list ul a::after {
+        display: none;
+    }
+
+    #header .nav-list ul li {
+        display: inline-block;
+    }
+
+    #header .nav-list ul li a {
+        font-size: 1.8rem;
+    }
+
+    #services .service-bottom .service-item {
+        flex-basis: 22%;
+        margin: 1.5%;
+    }
+
+}
+
+/*media queries*/
