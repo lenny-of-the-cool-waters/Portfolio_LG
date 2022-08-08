@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "name": "Web Design",
+        "description": "I'll take your idea, discuss it with you, and create a demo template. First step in turning castles in the sky into reality is always drawing up a plan and I am the designer for your needs."
+    },
+    {
+        "id": 1,
+        "name": "Web Development",
+        "description": "I create websites that look crisp and run smoothly. I believe your website should be stunning in both form and function. You need something simple, robust or just plain visionary? I know a guy (hint: its me) "
+    },
+    {
+        "id": 2,
+        "name": "APIs and Integrations",
+        "description": "Know what's better than one system? Multiple systems speaking to each other. I can do anything from Mpesa integrations, dynamic emails, customer service chatbots, to custom solutions."
+    },
+    {
+        "id": 3,
+        "name": "Tech Support",
+        "description": "Computer got the blues (screen of death)? I'll help you get things back up and running, and provide you steps on how to do it yourself if it happens again."
+    }
+]

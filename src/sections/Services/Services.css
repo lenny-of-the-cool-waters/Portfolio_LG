@@ -21,6 +21,7 @@
     letter-spacing: .05rem;
 }
 #services .service-bottom {
+    width: 90vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,11 +30,12 @@
 
 #services .service-item {
     position: relative;
-    display: flex;
     flex-basis: 80%;
-    align-items: flex-start;
-    justify-content: center;
+    display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: 38rem;
     margin: 10px 5px;
     padding: 30px;
     border-radius: 10px;
@@ -42,6 +44,15 @@
     color: white;
     z-index: 5;
     overflow: hidden;
+}
+
+.service-item > .icon {
+    /* height: 50%; */
+}
+
+.service-item > .name-container {
+    /* height: 50%; */
+    text-align: left;
 }
 
 #services .service-item::after {

@@ -1,4 +1,6 @@
 import React from "react";
+import Service from "./Service";
+import servicesList from './Services.json';
 import './Services.css';
 
 const Services = () => {
@@ -10,61 +12,13 @@ const Services = () => {
             Serv<span>i</span>ces
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-            voluptatem aliquam unde assumenda quasi, recusandae explicabo itaque
-            maiores nam minus? Sed alias sunt cum, dignissimos explicabo quo
-            reiciendis reprehenderit accusantium.
+            Need a friendly techie to work some "magic"? I know my stuff and can help you laugh away issues ranging from "my computer won't turn on" to "I need the coolest website for my business". Here are some cool things we can do together.
           </p>
         </div>
         <div className="service-bottom">
-          <div className="service-item">
-            <div className="icon">
-              <img src="/icons/icons8-gears-50.png" alt="Gears icon" />
-            </div>
-            <h2>Web service</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
-              eligendi asperiores ducimus rem, id laboriosam qui fugit,
-              accusantium cum sit, dolorem dignissimos voluptate velit rerum
-              fuga iste numquam corrupti dicta?
-            </p>
-          </div>
-          <div className="service-item">
-            <div className="icon">
-              <img src="/icons/icons8-gears-50.png" alt="Gears icon" />
-            </div>
-            <h2>Web service</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
-              eligendi asperiores ducimus rem, id laboriosam qui fugit,
-              accusantium cum sit, dolorem dignissimos voluptate velit rerum
-              fuga iste numquam corrupti dicta?
-            </p>
-          </div>
-          <div className="service-item">
-            <div className="icon">
-              <img src="/icons/icons8-gears-50.png" alt="Gears icon" />
-            </div>
-            <h2>Web service</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
-              eligendi asperiores ducimus rem, id laboriosam qui fugit,
-              accusantium cum sit, dolorem dignissimos voluptate velit rerum
-              fuga iste numquam corrupti dicta?
-            </p>
-          </div>
-          <div className="service-item">
-            <div className="icon">
-              <img src="/icons/icons8-gears-50.png" alt="Gears icon" />
-            </div>
-            <h2>Web service</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
-              eligendi asperiores ducimus rem, id laboriosam qui fugit,
-              accusantium cum sit, dolorem dignissimos voluptate velit rerum
-              fuga iste numquam corrupti dicta?
-            </p>
-          </div>
+          { servicesList.map(item => {
+            return <Service name={item.name} description={item.description} />
+          })}
         </div>
       </div>
     </section>
