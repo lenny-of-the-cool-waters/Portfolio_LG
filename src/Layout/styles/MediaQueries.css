@@ -10,18 +10,6 @@
         font-size: 6rem;
     }
 
-    #header .nav-bar {
-        justify-content: space-between;
-    }
-
-    #header .nav-list ul {
-        width: 50vw;
-    }
-
-    #header .nav-list ul.active {
-        left: 50vw;
-    }
-
     /*Hero*/
     #hero h1 {
         font-size: 7rem;
@@ -130,59 +118,11 @@
     /*End of contact section*/
 }
 
-@media only screen and (min-width: 900px) {
-    .brand {
-        padding-left: 2rem;
-    }
-
-    #header .nav-bar {
-        justify-content: flex-start;
-    }
-
-    #header .nav-list ul {
-        width: 40vw;
-    }
-
-    #header .nav-list ul.active {
-        left: 60vw;
-    }
-}
-
 @media only screen and (min-width: 1200px) {
-    .brand {
-        padding-left: 4rem;
-    }
-
-    #header .hamburger {
-        display: none;
-    }
-
-    #header .nav-list ul {
-        position: initial;
-        display: block;
-        height: auto;
-        width: fit-content;
-        background-color: transparent;
-        padding-right: 3.5rem;
-    }
-
-    #header .nav-list ul a::after {
-        display: none;
-    }
-
-    #header .nav-list ul li {
-        display: inline-block;
-    }
-
-    #header .nav-list ul li a {
-        font-size: 1.8rem;
-    }
-
     #services .service-bottom .service-item {
         flex-basis: 22%;
         margin: 1.5%;
     }
-
 }
 
 /*media queries*/

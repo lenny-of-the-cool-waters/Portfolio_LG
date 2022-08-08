@@ -17,11 +17,15 @@
 #header .nav-bar {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     height: 100%;
     max-width: width 1300px;
     padding: 0 10px;
+}
+
+#header .brand h1 {
+    font-size: 20px;
 }
 
 #header .nav-list ul {
@@ -146,13 +150,33 @@
 
 /*End of Hamburger menu*/
 
+
+/* Media Queries */
+@media only screen and (min-width: 768px) {
+    #header .nav-bar {
+        justify-content: space-between;
+    }
+
+    #header .nav-list ul {
+        width: 50vw;
+    }
+
+    #header .nav-list ul.active {
+        left: 50vw;
+    }
+}
+
 @media only screen and (min-width: 900px) {
-    .brand {
+    #header .brand h1 {
+        font-size: 24px;
+    }
+
+    #header .brand {
         padding-left: 2rem;
     }
 
     #header .nav-bar {
-        /* justify-content: space-evenly; */
+        justify-content: space-between;
     }
 
     #header .nav-list ul {
@@ -175,7 +199,7 @@
 
     #header .nav-bar {
         align-items: center;
-        /* justify-content: space-between; */
+        justify-content: space-between;
     }
 
     #header .nav-list ul {
@@ -197,10 +221,5 @@
 
     #header .nav-list ul li a {
         font-size: 1.8rem;
-    }
-
-    #services .service-bottom .service-item {
-        flex-basis: 22%;
-        margin: 1.5%;
     }
 }

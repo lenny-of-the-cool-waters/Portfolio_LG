@@ -12,12 +12,12 @@ const Services = () => {
             Serv<span>i</span>ces
           </h1>
           <p>
-            Need a friendly techie to work some "magic"? I know my stuff and can help you laugh away issues ranging from "my computer won't turn on" to "I need the coolest website for my business". Here are some cool things we can do together.
+            Need a friendly techie to work some "magic"? I know my stuff and can help you laugh your way through issues ranging from "my computer won't turn on" to "I need the coolest website for my business". Here are some cool things we can do together.
           </p>
         </div>
         <div className="service-bottom">
           { servicesList.map(item => {
-            return <Service name={item.name} description={item.description} />
+            return <Service key={item.id} name={item.name} description={item.description} />
           })}
         </div>
       </div>

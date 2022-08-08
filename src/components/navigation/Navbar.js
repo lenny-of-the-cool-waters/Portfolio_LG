@@ -52,17 +52,22 @@ const Navbar = () => {
             </div>
             <ul className={isMobileMenuActive ? "active" : null}>
               <li className="nav-item">
-                <a href="#hero" dataAfter="Home">
+                <a href="#hero" data-after="Home">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#projects" dataAfter="Projects">
+                <a href="#projects" data-after="Projects">
                   Projects
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#contacts" dataAfter="Contacts">
+                <a href="#about" data-after="About">
+                  About
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#contacts" data-after="Contacts">
                   Contacts
                 </a>
               </li>
