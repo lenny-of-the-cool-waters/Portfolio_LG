@@ -32,15 +32,35 @@ const Navbar = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const navItems = Array.from(document.querySelectorAll(".nav-item"));
+    const closeMobileMenu = () => {
+      setTimeout(() => {
+        setIsHamburgerActive(false);
+        setIsMobileMenuActive(false);
+      }, 300);
+    };
+
+    navItems.forEach((item) => item.addEventListener("click", closeMobileMenu));
+
+    return () => {
+      navItems.forEach((item) =>
+        item.removeEventListener("click", closeMobileMenu)
+      );
+    };
+  }, []);
+
   return (
     <header id="header">
       <div className="header container">
         <div className="nav-bar">
           <div className="brand">
-            <h1>
-              <span className="accented-text">L</span>enny{" "}
-              <span className="accented-text">G</span>ith
-            </h1>
+            <a href="#hero">
+              <h1>
+                <span className="accented-text">L</span>enny{" "}
+                <span className="accented-text">G</span>ith
+              </h1>
+            </a>
           </div>
 
           <div className="nav-list">
@@ -50,7 +70,7 @@ const Navbar = () => {
             >
               <div className="bar"></div>
             </div>
-            <ul className={isMobileMenuActive ? "active" : null}>
+            <ul id="nav-list" className={isMobileMenuActive ? "active" : null}>
               <li className="nav-item">
                 <a href="#hero" data-after="Home">
                   Home
