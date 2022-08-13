@@ -17,29 +17,29 @@ const Contacts = () => {
             </div>
             <div className="contact-info">
               <h1>Phone</h1>
-              <h2>+254 70012345</h2>
-              <h2>+254 75432100</h2>
+              <h2>+254 705761133</h2>
             </div>
           </div>
 
           <div className="contact-item">
             <div className="icon">
-              <img src="/icons/icons8-man-with-mail-50.png" alt="phone" />
+              <img src="/icons/icons8-man-with-mail-50.png" alt="email" />
             </div>
             <div className="contact-info">
               <h1>E mail</h1>
-              <h2>johndoe@gmail.com</h2>
-              <h2>johndoe@mail.com</h2>
+              <h2>lennygith@gmail.com</h2>
+              {/* <h2>johndoe@mail.com</h2> */}
             </div>
           </div>
 
           <div className="contact-item">
             <div className="icon">
-              <img src="/icons/icons8-address-50.png" alt="phone" />
+              <img src="/icons/icons8-address-50.png" alt="socials" />
             </div>
             <div className="contact-info">
-              <h1>Address</h1>
-              <h2>Nairobi, Kenya</h2>
+              <h1>Socials</h1>
+              <h2><a class="social-link" href="https://www.linkedin.com/in/lenny-githenya/">LinkedIn</a></h2>
+              <h2><a class="social-link" href="https://github.com/lenny-of-the-cool-waters">Github</a></h2>
             </div>
           </div>
         </div>

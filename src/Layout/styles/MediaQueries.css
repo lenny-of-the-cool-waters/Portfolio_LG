@@ -77,8 +77,8 @@
     }
 
     /*end ofAbout section*/
-    /*COntact section*/
-    #contact {
+    /*Contact section*/
+    /* #contact {
         flex-direction: column;
         padding: 100px 0;
         align-items: center;
@@ -113,7 +113,7 @@
         width: 100%;
         text-align: left;
         padding: 20px;
-    }
+    } */
 
     /*End of contact section*/
 }
