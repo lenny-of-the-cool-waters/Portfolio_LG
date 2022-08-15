@@ -38,8 +38,8 @@ const Contacts = () => {
             </div>
             <div className="contact-info">
               <h1>Socials</h1>
-              <h2><a class="social-link" href="https://www.linkedin.com/in/lenny-githenya/">LinkedIn</a></h2>
-              <h2><a class="social-link" href="https://github.com/lenny-of-the-cool-waters">Github</a></h2>
+              <h2><a className="social-link" href="https://www.linkedin.com/in/lenny-githenya/">LinkedIn</a></h2>
+              <h2><a className="social-link" href="https://github.com/lenny-of-the-cool-waters">Github</a></h2>
             </div>
           </div>
         </div>
