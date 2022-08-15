@@ -49,6 +49,10 @@
     text-decoration: underline;
 }
 
+#contacts .social-link:hover {
+    color:rgb(55, 145, 3);
+}
+
 @media only screen and (min-width: 768px) {
     /*Contact section*/
     #contacts {

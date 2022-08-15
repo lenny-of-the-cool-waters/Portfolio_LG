@@ -3,30 +3,32 @@
         "name": "Realtime Accident Tracker",
         "category": "Web and IoT development",
         "description" : "I came up with the concept and prototype for a realtime accident tracking system intended for use by vehicle insurance providers and their clients. By making use of sensors in the client's vehicle, the system would be able to detect various types of accidents and notify the insurer and emergency services when one occurs.",
-        "imagePath":  "/img/img-1.png"
+        "imagePath":  "/img/projects/IoT.webp"
     },
     {
         "name": "Minet Kenya Customer Service Chatbots",
         "category": "Chatbot development",
         "description" : "Developed and deployed a fully automated chatbot on web and whatsapp for Minet Insurance Brokers. I utilised several codeless solutions and created my own knowledge base allowing the chatbot to efficiently provide support to clients in need. ",
-        "imagePath":  "/img/img-1.png"
+        "imagePath":  "/img/projects/chatbot.jfif"
     },
     {
         "name": "Core Banking System Integrations",
         "category": "Backend development",
         "description" : "Developed and exposed API endpoints interfacing with the core banking system at NCBA bank. ",
-        "imagePath":  "/img/img-1.png"
+        "imagePath":  "/img/projects/backend.webp"
     },
     {
-        "name": "Report Card Sample",
-        "category": "Data Analysis, Front end dev",
-        "description" : "Built a dynamic report card template for a local school with studen't results displayed and analysed using graphs and charts",
-        "imagePath":  "/img/img-1.png"
+        "name": "Responsive FAQ card",
+        "category": "Front end dev",
+        "description" : "Fully responsive FAQ card components incorporating accordions, dynamic SVGs, and dynamic resizing to fit various screen sizes and orientations",
+        "imagePath":  "/img/projects/frontend.webp",
+        "url" : "https://faq-accordion-zeta-beryl.vercel.app/"
     },
     {
-        "name": "More Good Stuff",
-        "category": "Github repos",
-        "description" : "Here are more projects I have worked on. They cover topics such as Frontend web development, Backend Web development, Database administration, Cloud computing, IoT and robotics.",
-        "imagePath":  "/img/img-1.png"
+        "name": "Weather Tracking",
+        "category": "Fullstack web development",
+        "description" : "A weather tracking website providing data for expected whether within the day and week. Utilizes weatherly's free api in conjunction with location tracking",
+        "imagePath":  "/img/projects/fullstack.png",
+        "url": ""
     }
 ]
